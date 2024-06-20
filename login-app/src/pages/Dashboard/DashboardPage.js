@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function DashboardPage() {
+const DashboardPage = () => {
   const user = JSON.parse(localStorage.getItem('user'));
 
   return (
