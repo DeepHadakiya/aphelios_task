@@ -7,7 +7,7 @@ const DashboardPage = () => {
   return (
     <div>
       <h2>Welcome, {user.username}</h2>
-      <Link to="/logout">Logout</Link>
+      <button><Link to="/logout">Logout</Link></button>
     </div>
   );
 }
